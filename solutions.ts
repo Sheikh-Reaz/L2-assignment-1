@@ -5,14 +5,21 @@ const filterEvenNumbers = (items: number[]): number[] => {
 };
 
 const array = [1, 2, 3, 4, 5, 6];
-console.log(filterEvenNumbers(array));
+// console.log(filterEvenNumbers(array));
 
 //Problem-2
 
 const reverseString = (input: string): string => {
   return input.split("").reverse().join("");
 };
-console.log(reverseString("12345"));
+
+
+// console.log(reverseString("12345"));
+
+
+
+
+
 
 //problem-3
 
@@ -23,6 +30,13 @@ const StringOrNumber = (input: string | number) => {
 };
 StringOrNumber("Hello");
 StringOrNumber(123);
+
+
+
+
+
+
+
 
 //problem-4
 
@@ -36,11 +50,16 @@ type User = {
   age: number;
 };
 
-// Sample Input:
+
 const user: User = { id: 1, name: "John Doe", age: 21 };
 
 const result = getProperty(user, "name");
-console.log(result);
+//console.log(result);
+
+
+
+
+
 
 //Problem-5
 interface Book {
@@ -64,8 +83,16 @@ const myBook: Book = {
   publishedYear: 2024,
 };
 
-// toggleReadStatus(myBook);
-console.log(toggleReadStatus(myBook));
+ toggleReadStatus(myBook);
+// console.log(toggleReadStatus(myBook));
+
+
+
+
+
+
+
+
 
 
 //Problem-6
@@ -98,6 +125,12 @@ const student = new Student("Umayer", 21, "A");
 student.getDetails();
 
 
+
+
+
+
+
+
 //Problem-7
 function getIntersection(input1: number[], input2: number[]): number[] {
   return input1.filter(num => input2.includes(num));
@@ -107,5 +140,5 @@ const output = getIntersection(
   [3, 4, 5, 6, 7]
 );
 
-console.log(output);
+// console.log(output);
 
